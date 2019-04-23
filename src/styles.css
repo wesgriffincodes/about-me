@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Indie+Flower');
+
+body{
+    background-color: #9d5949;
+    color: #353338;
+    font-size:20px;
+}
+
+h1 {
+    color: #4ba88e;
+    text-align: center;
+    font-family: "Anton", arial;
+    font-size: 50px
+    
+}
+
+h2 {
+    color: #c5984d;
+    text-align: center;
+    font-family: "Anton", arial;
+    font-size: 35px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+  li{
+    font-family: "Indie Flower", cursive;
+  }
+
+ 
+  
+    
