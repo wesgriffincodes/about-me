@@ -1,5 +1,10 @@
-function scoreAnswers (breedAnswer, hobbyAnswer, foodAnswer, singerAnswer, coolestAnswer) {
-
+function scoreAnswers(breedAnswer, hobbyAnswer, foodAnswer, singerAnswer, coolestAnswer) {
+    breedAnswer = breedAnswer.toLowerCase();
+    hobbyAnswer = hobbyAnswer.toLowerCase();
+    foodAnswer = foodAnswer.toLowerCase();
+    singerAnswer = singerAnswer.toLowerCase();
+    coolestAnswer = coolestAnswer.toLowerCase();
+    
     let score = 0;
 
     if(breedAnswer === 'retriever') {
@@ -18,6 +23,6 @@ function scoreAnswers (breedAnswer, hobbyAnswer, foodAnswer, singerAnswer, coole
         score += 1;
     }
     return score;
-};
+}
 
 export default scoreAnswers;
