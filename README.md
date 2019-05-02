@@ -1,2 +1,2 @@
 # about-me
-A short bio about myself.
+All about the coolest dog on the planet...Freddie Nacho!
