@@ -13,7 +13,7 @@ test('all right answers is 5', function(assert) {
     const expected = 5;
 
 
-    const score = scoreAnswers(breedAnswer, hobbyAnswer, foodAnswer, singerAnswer, coolestAnswer)
+    const score = scoreAnswers(breedAnswer, hobbyAnswer, foodAnswer, singerAnswer, coolestAnswer);
 
   
     assert.equal(score, expected);
@@ -29,7 +29,7 @@ test('all wrong answers is 0', function(assert) {
     const expected = 0;
 
 
-    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer)
+    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer);
 
    
     assert.equal(score, expected);
